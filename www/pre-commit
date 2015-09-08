@@ -1,0 +1,4 @@
+#!/bin/sh
+
+harp compile
+surge www

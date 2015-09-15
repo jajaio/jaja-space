@@ -8,7 +8,7 @@ var bird;
 function preload() {
   game.stage.backgroundColor = '#bbbbbb';
   game.load.image("background","assets/background.gif");
-  game.load.image("bird","assets/background.gif");
+  game.load.image("bird","assets/bird.gif");
 }
 
 function create() {

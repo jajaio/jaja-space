@@ -18,7 +18,7 @@ function create() {
   game.physics.startSystem(Phaser.Physics.ARCADE);
   background = game.add.tileSprite(0,0,320,568,"background");
   background.autoScroll(-100,0);
-  bird = game.add.sprite(10,28,"bird");//284
+  bird = game.add.sprite(20,284,"bird");//10
   game.physics.enable(bird, Phaser.Physics.ARCADE);
   bird.body.gravity.y = 1000;
 }

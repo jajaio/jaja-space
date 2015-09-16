@@ -5,10 +5,13 @@ var game = new Phaser.Game(320,568,Phaser.AUTO,'game',
 
 var background;
 var bird;
+var pipe;
+
 function preload() {
   game.stage.backgroundColor = '#bbbbbb';
   game.load.image("background","assets/background.gif");
   game.load.image("bird","assets/bird.gif");
+  game.load.image("pipe","assets/pipe.gif");
 }
 
 function create() {

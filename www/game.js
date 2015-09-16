@@ -12,9 +12,12 @@ function preload() {
 }
 
 function create() {
+  game.physics.startSystem(Phaser.Physics.ARCADE);
   background = game.add.tileSprite(0,0,320,568,"background");
   background.autoScroll(-100,0);
   bird = game.add.sprite(10,284,"bird");
+  game.physics.enable(bird, Phaser.Physics.ARCADE);
+  bird.body.gravity.y = 1000;
 }
 
 function update() {

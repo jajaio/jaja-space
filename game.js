@@ -13,6 +13,9 @@ function preload() {
   game.load.image("bird","assets/bird.gif");
   game.load.image("pipe","assets/pipe.gif");
 }
+function flap(){
+  flappy.body.velocity.y = -400;
+}
 
 function create() {
   //Start Physics Engine
@@ -30,9 +33,6 @@ function create() {
   
 }
 
-function flap(){
-  flappy.body.velocity.y = -400
-}
 function update() {
 }
 

@@ -27,6 +27,7 @@ function create() {
   //Add some control to the bird
   game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR)
     .onDown.add(function(){bird.body.velocity.y=-200;
+    });
 }
 
 function update() {

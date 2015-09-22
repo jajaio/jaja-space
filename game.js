@@ -26,7 +26,7 @@ function create() {
   bird.body.gravity.y = 1000;
   //Add some control to the bird
   game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR)
-    .onDown.add(function(){bird.body.velocity.y=-500;
+    .onDown.add(function(){bird.body.velocity.y=-400; //The Higher the Negative number, the higher our bird will jump.
     });
 }
 

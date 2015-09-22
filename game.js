@@ -25,11 +25,14 @@ function create() {
   game.physics.enable(bird, Phaser.Physics.ARCADE);
   bird.body.gravity.y = 1000;
   //Add some control to the bird
-  game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR)
-    .onDown.add(function(){bird.body.velocity.y=-400; //The Higher the Negative number, the higher our bird will jump.
+  game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR).onDown.add(flap); //The Higher the Negative number, the higher our bird will jump.
+  game.input.onDown.add(flap);  
     });
 }
 
+function flap(){
+  flappy.body.velocity.y = -400
+}
 function update() {
 }
 

@@ -13,11 +13,11 @@ function preload() {
   game.load.image("bird","assets/bird.gif");
   game.load.image("pipe","assets/pipe.gif");
 }
-function flap(){
-  flappy.body.velocity.y = -400;
-}
 
 function create() {
+  function flap(){
+    bird.body.velocity.y = -400;
+  }
   //Start Physics Engine
   game.physics.startSystem(Phaser.Physics.ARCADE);
   //Add our Background

@@ -6,7 +6,7 @@ var game = new Phaser.Game(320,568,Phaser.AUTO,'game',
 var background;
 var bird;
 var pipe1t;
-var
+
 
 
 

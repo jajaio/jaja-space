@@ -1,0 +1,44 @@
+body{
+  background-color: black;
+  text-align: center;
+  font-family: Trebuchet MS;
+}
+
+p{
+  color: red;
+}
+
+h1{
+  color: red;
+  font-weight: 
+}
+h2{
+  color: red;
+  font-size: 45px;
+}
+
+a{
+  font-family: Trebuchet MS;
+  color: black;
+  font-size: 80px;
+  text-decoration: none;
+}
+
+#div1{
+  background-color: red;
+  text-align: center;  
+}
+
+#div2{
+  background-color: #FF4136;
+  text-align: center;
+}
+
+p{
+  font-size: 25px;
+  color: red;
+}
+
+li{
+  color: #FF4136;
+}

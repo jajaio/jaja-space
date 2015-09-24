@@ -1,15 +1,13 @@
 'use strict';
 
+author = "jajaio";
+
 var game = new Phaser.Game(320,568,Phaser.AUTO,'game',
   {preload:preload,create:create,update:update,render:render});
 
 var background;
 var bird;
 var pipe1t;
-
-
-
-
 
 function preload() {
   game.stage.backgroundColor = '#bbbbbb';

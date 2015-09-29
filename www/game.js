@@ -30,6 +30,8 @@ function create() {
   //bird.scale.set(2);
   bird.smoothed = false;
   bird.animations.add('flap',[0,1], 10, true);
+  bird.play('fly');
+  //Physics
   game.physics.enable(bird, Phaser.Physics.ARCADE);
   bird.body.gravity.y = 1000;
   bird.body.collideWorldBounds = true;

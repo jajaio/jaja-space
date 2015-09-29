@@ -12,7 +12,7 @@ var pipe1t;
 function preload() {
   game.stage.backgroundColor = '#bbbbbb';
   game.load.image("background","assets/background.gif");
-  game.load.image("bird","assets/bird.png");
+  game.load.spritesheet("bird","assets/bird.png",46,56);
   game.load.image("pipe","assets/pipe.gif");
 }
 
@@ -27,6 +27,8 @@ function create() {
   background.autoScroll(-100,0);
   //Add our bird and give it physics
   bird = game.add.sprite(10,284,"bird");
+  //bird.scale.set(2);
+  bird.smoothed = false;
   game.physics.enable(bird, Phaser.Physics.ARCADE);
   bird.body.gravity.y = 1000;
   bird.body.collideWorldBounds = true;

@@ -29,7 +29,7 @@ function create() {
   bird = game.add.sprite(10,284,"bird");
   //bird.scale.set(2);
   bird.smoothed = false;
-  bird.animations.add('flap',[0,1,2,3]);
+  bird.animations.add('flap',[0,1]);
   game.physics.enable(bird, Phaser.Physics.ARCADE);
   bird.body.gravity.y = 1000;
   bird.body.collideWorldBounds = true;

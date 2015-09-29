@@ -12,7 +12,7 @@ var pipe1t;
 function preload() {
   game.stage.backgroundColor = '#bbbbbb';
   game.load.image("background","assets/background.gif");
-  game.load.image("bird","assets/bird.gif");
+  game.load.image("bird","assets/bird.png");
   game.load.image("pipe","assets/pipe.gif");
 }
 

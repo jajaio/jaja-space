@@ -20,8 +20,6 @@ function create() {
   function flap(){
     bird.body.velocity.y = -400;
   }
-  //Start Physics Engine
-  game.physics.startSystem(Phaser.Physics.ARCADE);
   //Add our Background
   background = game.add.tileSprite(0,0,320,568,"background");
   background.autoScroll(-100,0);
@@ -29,9 +27,10 @@ function create() {
   bird = game.add.sprite(10,284,"bird");
   //bird.scale.set(2);
   bird.smoothed = false;
-  bird.animations.add('fly',[0,1], 6/*6 is the fps*/, true);
+  bird.animations.add('fly',[0,1], 100/*6 is the fps*/, true);
   bird.play('fly');
   //Physics
+  game.physics.startSystem(Phaser.Physics.ARCADE);
   game.physics.enable(bird, Phaser.Physics.ARCADE);
   bird.body.gravity.y = 1000;
   bird.body.collideWorldBounds = true;

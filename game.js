@@ -25,7 +25,7 @@ function create() {
   background.autoScroll(-100,0);
   //Add our bird and give it physics
   bird = game.add.sprite(10,284,"bird");
-  //bird.scale.set(2);
+  bird.scale.set(2);
   bird.smoothed = false;
   bird.animations.add('fly',[0,1], 6/*6 is the fps*/, true);
   bird.play('fly');

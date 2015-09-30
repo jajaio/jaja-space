@@ -29,7 +29,7 @@ function create() {
   bird = game.add.sprite(10,284,"bird");
   //bird.scale.set(2);
   bird.smoothed = false;
-  bird.animations.add('fly',[0,1], 10, true);
+  bird.animations.add('fly',[0,1], 6/*6 is the fps*/, true);
   bird.play('fly');
   //Physics
   game.physics.enable(bird, Phaser.Physics.ARCADE);

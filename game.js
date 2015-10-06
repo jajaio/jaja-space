@@ -41,7 +41,7 @@ function create() {
   pipe1t = game.add.sprite(400,30,"pipet");
   pipe1b = game.add.sprite(400,30,"pipeb");
   pipe2t = game.add.sprite(600,30,"pipet");
-  pipe2b = game.add.sprite(600,30,"pibeb");
+  pipe2b = game.add.sprite(600,30,"pipeb");
   pipe3t = game.add.sprite(800,30,"pipet");
   pipe3b = game.add.sprite(800,30,"pipeb");
   pipe1t.scale.set(3);

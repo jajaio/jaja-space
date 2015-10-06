@@ -72,7 +72,7 @@ function create() {
 
 function startPipe(){
   var offset = 175;
-  var margin - 50;
+  var margin = 50;
   var pipey = game.rnd.integerInRange(centery, centery);
   t.x = 550;
   b.x = 550;

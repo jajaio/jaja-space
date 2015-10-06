@@ -27,6 +27,7 @@ function create() {
   function flap(){
     bird.body.velocity.y = -400;
   }
+  centery=game.height/2; //centery is center y
   //Add our Background
   background = game.add.tileSprite(0,0,320,568,"background");
   background.autoScroll(-100,0);

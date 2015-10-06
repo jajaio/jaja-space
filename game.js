@@ -39,7 +39,22 @@ function create() {
   pipe3t = game.add.sprite(800,30);
   pipe3b = game.add.sprite(800,30);
   //Physics
-  //
+  
+  game.physics.enable(pipe1t, Phaser.Physics.ARCADE);
+  game.physics.enable(pipe1b, Phaser.Physics.ARCADE);
+  game.physics.enable(pipe2t, Phaser.Physics.ARCADE);
+  game.physics.enable(pipe2b, Phaser.Physics.ARCADE);
+  game.physics.enable(pipe3t, Phaser.Physics.ARCADE);
+  game.physics.enable(pipe3b, Phaser.Physics.ARCADE);
+
+  pipe1t.body.velocity.x = -100;
+  pipe1b.body.velocity.x = -100;
+  pipe2t.body.velocity.x = -100;
+  pipe2b.body.velocity.x = -100;
+  pipe3t.body.velocity.x = -100;
+  pipe3b.body.velocity.x = -100;
+
+  
   game.physics.startSystem(Phaser.Physics.ARCADE);
   game.physics.enable(bird, Phaser.Physics.ARCADE);
   bird.body.gravity.y = 1000;

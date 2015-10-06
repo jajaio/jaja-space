@@ -65,9 +65,26 @@ function create() {
 }
 
 function startPipe(){
-
+  var offset = 175;
+  var margin - 50;
+  var pipey = game.rnd.integerInRange(centery, centery);
+  t.x = 550;
+  b.x = 550;
+  t.y = pipey - offset;
+  b.y = pipey + offset;
 }
+
 function update() {
+  if(pipe1t.x < -100){
+    startPipe(pipe1t,pipe1b);
+  }
+  if(pipe2.x < -100){
+    startPipe(pipe2t, pipe2b);
+  }
+  if(pipe3t.x < -100){
+    startPipe(pipe3t, pipe3b);
+  }
+
 }
 
 function render() {

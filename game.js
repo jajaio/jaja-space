@@ -7,8 +7,13 @@ var game = new Phaser.Game(320,568,Phaser.AUTO,'game',
 
 var background;
 var bird;
-var pipet;
-var pipeb;
+var pipe1t;
+var pipe1b;
+var pipe2t;
+var pipe2b;
+var pipe3t;
+var pipe3b;
+var centery;
 
 function preload() {
   game.stage.backgroundColor = '#bbbbbb';

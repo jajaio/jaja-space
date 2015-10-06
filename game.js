@@ -70,7 +70,7 @@ function create() {
   game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR).onDown.add(flap); //The Higher the Negative number, the higher our bird will jump.  
 }
 
-function startPipe(){
+function startPipe(t, b){
   var offset = 175;
   var margin = 50;
   var pipey = game.rnd.integerInRange(centery, centery);

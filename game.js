@@ -40,10 +40,10 @@ function create() {
   //Add The Pipes
   pipe1t = game.add.sprite(400,30,"pipet");
   pipe1b = game.add.sprite(400,30,"pipeb");
-  pipe2t = game.add.sprite(600,30);
-  pipe2b = game.add.sprite(600,30);
-  pipe3t = game.add.sprite(800,30);
-  pipe3b = game.add.sprite(800,30);
+  pipe2t = game.add.sprite(600,30,"pipet");
+  pipe2b = game.add.sprite(600,30,"pibeb");
+  pipe3t = game.add.sprite(800,30,"pipet");
+  pipe3b = game.add.sprite(800,30,"pipeb");
   pipe1t.scale.set(3);
   pipe1b.scale.set(3);
   //Physics

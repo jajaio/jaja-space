@@ -45,6 +45,7 @@ function create() {
   pipe3t = game.add.sprite(800,30);
   pipe3b = game.add.sprite(800,30);
   pipe1t.scale.set(3);
+  pipe1b.scale.set(3);
   //Physics
   
   game.physics.enable(pipe1t, Phaser.Physics.ARCADE);

@@ -84,7 +84,7 @@ function update() {
   if(pipe1t.x < -100){
     startPipe(pipe1t,pipe1b);
   }
-  if(pipe2.x < -100){
+  if(pipe2t.x < -100){
     startPipe(pipe2t, pipe2b);
   }
   if(pipe3t.x < -100){

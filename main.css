@@ -4,6 +4,10 @@ body{
   font-family: 'Open Sans';
 }
 
+p{
+  font-family: 'Open Sans';
+  color: #268BD2
+}
 h1 {
   color: white;
   font-weight: bold;

@@ -1,12 +1,11 @@
 body{
   background-color: black;
   text-align: center;
-  font-family: Trebuchet MS;
+  font-family: 'Open Sans';
 }
 
 p{
   color: red;
-  font-family: Trebuchet MS;
 }
 
 h1{
@@ -16,13 +15,6 @@ h1{
 h2{
   color: red;
   font-size: 45px;
-}
-
-a{
-  font-family: Trebuchet MS;
-  color: black;
-  font-size: 80px;
-  text-decoration: none;
 }
 
 #div1{
@@ -39,11 +31,4 @@ a{
   background-color: red;
   text-align: center;
 }
-p{
-  font-size: 25px;
-  color: red;
-}
 
-li{
-  color: #FF4136;
-}

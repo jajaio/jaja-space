@@ -35,6 +35,10 @@ a{
   text-align: center;
 }
 
+#div3{
+  background-color: red;
+  text-align: center;
+}
 p{
   font-size: 25px;
   color: red;

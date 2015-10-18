@@ -2,7 +2,7 @@
 
 var author = "jajaio";
 
-var game = new Phaser.Game(320,568,Phaser.AUTO,'game',
+var game = new Phaser.Game(3200,568,Phaser.AUTO,'game',
   {preload:preload,create:create,update:update,render:render});
 
 var background;
@@ -29,7 +29,7 @@ function create() {
   }
   centery=game.height/2; //centery is center y
   //Add our Background
-  background = game.add.tileSprite(0,0,3200,568,"background");
+  background = game.add.tileSprite(0,0,320,568,"background");
   background.autoScroll(-100,0);
   //Add our bird and give it physics
   bird = game.add.sprite(10,284,"bird");

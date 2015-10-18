@@ -4,12 +4,7 @@ body{
   font-family: 'Open Sans';
 }
 
-p{
-  color: red;
-}
-
-div.fade {
+h1 {
   color: white;
-  font-weight: 
+  font-weight: bold;
 }
-

@@ -13,11 +13,21 @@ div.hidden {
   display: none;
 }
 
-div {
+div.hidden, div.blah.hidden {
   position: fixed;
   height: 200px;
   width: 400px;
   top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+
+div.blah {
+  position: fixed;
+  height: 200px;
+  width: 400px;
+  top: 60%;
   left: 50%;
   margin-top: -100px;
   margin-left: -200px;

@@ -54,4 +54,13 @@ h2 {
 #fourth.hidden {
   display: none;
 }
-
+#game {
+  position: fixed;
+  height: 200px;
+  width: 400px;
+  top: 55%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+  

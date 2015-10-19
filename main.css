@@ -57,6 +57,7 @@ h2 {
 #game {
   position: fixed;
   height: 200px;
+  top: 55%;
   width: 400px;
   left: 50%;
 }

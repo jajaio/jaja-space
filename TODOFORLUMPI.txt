@@ -1,1 +1,2 @@
 -Make Images Fade in.
+-Add in the planet for blog (image in use later file)

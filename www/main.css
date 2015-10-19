@@ -4,6 +4,10 @@ body{
   font-family: 'Open Sans';
 }
 
+p{
+  font-family: 'Open Sans';
+  color: #268BD2
+}
 h1 {
   color: white;
   font-weight: bold;
@@ -12,7 +16,7 @@ h1 {
 h2 {
   color: #268BD2;
   font-weight: bold;
-  font-size: 42px;
+  font-size: 50px;
 }
 
 #first {

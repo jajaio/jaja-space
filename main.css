@@ -54,9 +54,4 @@ h2 {
 #fourth.hidden {
   display: none;
 }
-#game {
-  position: fixed;
-  left: 50%;
-  right: 50%;
-}
   

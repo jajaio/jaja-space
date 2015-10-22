@@ -54,4 +54,8 @@ h2 {
 #fourth.hidden {
   display: none;
 }
-  
+
+#game_container {
+  text-align: center;
+  position: fixed;
+}

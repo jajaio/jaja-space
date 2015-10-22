@@ -18,7 +18,7 @@ var centery;
 function preload() {
   game.stage.backgroundColor = '#bbbbbb';
   game.load.image("background","assets/background.gif");
-  game.load.spritesheet("bird","assets/rick.png");
+  game.load.spritesheet("bird","assets/RickAstley.png");
   game.load.image("pipet","assets/pipet.gif");
   game.load.image("pipeb","assets/pipeb.gif");
 }

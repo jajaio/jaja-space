@@ -1,5 +1,0 @@
-#!/bin/sh
-
-harp compile
-surge www
-save

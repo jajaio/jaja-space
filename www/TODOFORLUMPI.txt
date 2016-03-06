@@ -1,0 +1,2 @@
+-Download the planet images and put text of the subject on the planet.
+-Add in the planet for blog (image in use later file)

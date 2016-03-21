@@ -23,7 +23,7 @@ h2 {
   position: fixed;
   height: 200px;
   width: 400px;
-  top: 0%;
+  top: 25%;
   left: 50%;
   margin-top: -100px;
   margin-left: -200px;
@@ -40,7 +40,7 @@ h2 {
   top: 55%;
   left: 50%;
   margin-top: -100px;
-  margin-left: -200px;
+  margin-left: -300px;
 }
 
 #second.hidden {

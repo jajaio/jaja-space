@@ -16,14 +16,14 @@ h1 {
 h2 {
   color: #268BD2;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 25px;
 }
 
 #first {
   position: fixed;
   height: 200px;
   width: 400px;
-  top: 100%;
+  top: 0%;
   left: 50%;
   margin-top: -100px;
   margin-left: -200px;

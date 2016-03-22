@@ -8,9 +8,11 @@ p{
   font-family: 'Open Sans';
   color: #268BD2
 }
+
 h1 {
   color: white;
   font-weight: bold;
+  font-size: 60px;
 }
 
 h2 {
@@ -40,7 +42,7 @@ h2 {
   top: 55%;
   left: 50%;
   margin-top: -100px;
-  margin-left: -300px;
+  margin-left: -200px;
 }
 
 #second.hidden {

@@ -1,0 +1,61 @@
+body{
+  background-image: url('galaxy-wallpapers-11.jpg');
+  text-align: center;
+  font-family: 'Open Sans';
+}
+
+p{
+  font-family: 'Open Sans';
+  color: #268BD2
+}
+h1 {
+  color: white;
+  font-weight: bold;
+}
+
+h2 {
+  color: #268BD2;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#first {
+  position: fixed;
+  height: 200px;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+
+#first.hidden {
+  display: none;
+}
+
+#second {
+  position: fixed;
+  height: 200px;
+  width: 400px;
+  top: 55%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+
+#second.hidden {
+  display: none;
+}
+
+#third.hidden {
+  display: none;
+}
+
+#fourth.hidden {
+  display: none;
+}
+
+#game_container {
+  text-align: center;
+  position: fixed;
+}

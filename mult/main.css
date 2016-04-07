@@ -1,63 +1,63 @@
-body{
-  background-image: url('galaxy-wallpapers-11.jpg');
-  text-align: center;
-  font-family: 'Open Sans';
+body {
+    background-image: url(multbackground.jpg);
+    font-family: Verdana;
 }
-
-p{
-  font-family: 'Open Sans';
-  color: #268BD2
+.header {
+    text-align: center;
+    font-size: 200px;
+    color: white;
+    font-weight: bold;
 }
-
-h1 {
-  color: white;
-  font-weight: bold;
-  font-size: 60px;
+.description {
+    background-color: #FF7E47;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 15px;
 }
-
-h2 {
-  color: #268BD2;
-  font-weight: bold;
-  font-size: 25px;
+.descriptionhead {
+    text-align: center;
+    color: white;
+    font-size: 50px;
 }
-
-#first {
-  position: fixed;
-  height: 200px;
-  width: 400px;
-  top: 25%;
-  left: 50%;
-  margin-top: -100px;
-  margin-left: -200px;
+.descriptiontext {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-left: 80px;
+    margin-right: 80px;
 }
-
-#first.hidden {
-  display: none;
+.setup {
+    background-color: #FF7E47;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin-right: 150px;
+    margin-left: 150px;
 }
-
-#second {
-  position: fixed;
-  height: 200px;
-  width: 400px;
-  top: 55%;
-  left: 50%;
-  margin-top: -100px;
-  margin-left: -200px;
+.setuphead {
+    text-align: center;
+    color: white;
+    font-size: 50px;
 }
-
-#second.hidden {
-  display: none;
+.setuptext {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-left: 80px;
+    margin-right: 80px;
 }
-
-#third.hidden {
-  display: none;
+.footer {
+    color: white;
+    font-size: 10px;
+    text-align: center;
 }
-
-#fourth.hidden {
-  display: none;
+.colelink:hover {
+    color: #FF7E47;
 }
-
-#game_container {
-  text-align: center;
-  position: fixed;
+.jajalink:hover {
+    color: #FF7E47;
+}
+a {
+    color: white;
 }

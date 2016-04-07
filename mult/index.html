@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <link href="main.css" rel="stylesheet"> 
-  <link rel="icon" type="image/png" href="http://www.icon100.com/icon/199238/emoji-glad/16/png">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link href="main.css" rel="stylesheet">
   <head>
-    <title>
-      Mult.
-    </title>
+    <title>MULT</title>
   </head>
   <body>
-    <a href="https://github.com/jajaio/mult">
-      <div id='first' class='hidden'><h1>Mult.</h1></div>
-    </a>
-    <div id='second' class='hidden'><h2>An IM program for the UNIX command line.</h2></div>
-    <script>
-      $(document).ready(function () {
-        $('#first.hidden').fadeIn(3000).removeClass('hidden');
-        $('#second.hidden').fadeIn(7000).removeClass('hidden');
-      });
-    </script>
+    <p class="header">Mult</p>
+    <div class="description">
+      <p class="descriptionhead">Mult Description</p>
+      <p class="descriptiontext">Mult is a chat system specifically made for two users. It is written using both Bash and Python. Mult is designed to be a simple yet versatile program that contains many input options. The files written in Bash include the <strong>.alert</strong> file, the <strong>.messagealert</strong> file, the <strong>bh</strong> file, the <strong>cleanup</strong> file, the <strong>notify</strong> file, the <strong>receive</strong> file, and the <strong>rmold.sh</strong> file. The files written in Python are the <strong>colors.py</strong> file, the <strong>load.py</strong> file, the <strong>main.py</strong> file, the <strong>save.py</strong> file, the <strong>setup.py</strong> file, and the <strong>user.py</strong> file. These programs work together to allow mult to send and receive messages. Mult is an input based system where you can choose to read new messages or to send messages. After reading messages, you can delete the other person's messages or you can leave them to be read again. When a message is sent, it is saved in each user's <strong>.history</strong> so that it can be accessed at a later time. Each time a user receives a new message, they also receive an alert when they sign into their account. Mult is an amazing chat system that uses both python and bash for communication between multiple users.</p>
+    </div>
+    <div class="setup">
+      <p class="setuphead">Mult Setup</p>
+      <p class="setuptext">For the sake of this
+installation, you will be <strong>user1</strong> and the person you chat with will 
+be called <strong>user2</strong>. First, open the /etc/group file as an admin. <strong>vi
+/etc/group</strong>. Put <strong>user1</strong> and <strong>user2</strong> together. <strong>user1:x:1000:user2</strong> <strong>user2:x:1001:user1</strong>.
+Next, go back to .mult and edit the <strong>bh</strong> file <strong>vi bh</strong>. Once you're 
+inside, edit the part that says <strong>user2</strong> to say their user name. 
+Next, edit the <strong>receive</strong> file to do the same thing. After that, 
+vi the <strong>cleanup</strong> file to change the last user2 part to the user you 
+will be communicating with. Then, run the <strong>setup.py</strong> file. <strong>python3 setup.py</strong>. 
+Once this is done, go back to your home directory. <strong>cd ~</strong> and edit the <strong>.alert</strong> 
+file so you can change the final <strong>user2</strong> part. Once these steps are done for both users, you're set! 
+Have both users exit and sign into their accounts and you can run mult.
+Type <strong>mult</strong> from the command line to access the chat.</p>
+    </div>
   </body>
+  <footer>
+    <p class="footer">Mult developed by <a href="https://github.com/colevahey" class="colelink">Cole Vahey</a> and <a href="https://github.com/jajaio" class="jajalink">Jack Martin</a>. Website by <a href="https://github.com/colevahey" class="colelink">Cole Vahey</a>.</p>
+  </footer>
 </html>

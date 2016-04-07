@@ -1,33 +1,205 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Escape Velocity by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-  <link href="main.css" rel="stylesheet">
-  <head>
-    <title>Mult.</title>
-  </head>
-  <body>
-    <p class="header">Mult.</p>
-    <div class="description">
-      <p class="descriptionhead">Mult Description.</p>
-      <p class="descriptiontext">Mult is a chat system specifically made for two users. It is written using both Bash and Python. Mult is designed to be a simple yet versatile program that contains many input options. The files written in Bash include the <strong>.alert</strong> file, the <strong>.messagealert</strong> file, the <strong>bh</strong> file, the <strong>cleanup</strong> file, the <strong>notify</strong> file, the <strong>receive</strong> file, and the <strong>rmold.sh</strong> file. The files written in Python are the <strong>colors.py</strong> file, the <strong>load.py</strong> file, the <strong>main.py</strong> file, the <strong>save.py</strong> file, the <strong>setup.py</strong> file, and the <strong>user.py</strong> file. These programs work together to allow mult to send and receive messages. Mult is an input based system where you can choose to read new messages or to send messages. After reading messages, you can delete the other person's messages or you can leave them to be read again. When a message is sent, it is saved in each user's <strong>.history</strong> so that it can be accessed at a later time. Each time a user receives a new message, they also receive an alert when they sign into their account. Mult is an amazing chat system that uses both Python and Bash for communication between multiple users.</p>
-    </div>
-    <div class="setup">
-      <p class="setuphead">Mult Setup</p>
-      <p class="setuptext">For the sake of this
-installation, you will be <strong>user1</strong> and the person you chat with will 
-be called <strong>user2</strong>. First, open the /etc/group file as an admin. <strong>vi
-/etc/group</strong>. Put <strong>user1</strong> and <strong>user2</strong> together. <strong>user1:x:1000:user2</strong> <strong>user2:x:1001:user1</strong>.
-Next, go back to .mult and edit the <strong>bh</strong> file <strong>vi bh</strong>. Once you're 
-inside, edit the part that says <strong>user2</strong> to say their user name. 
-Next, edit the <strong>receive</strong> file to do the same thing. After that, 
-vi the <strong>cleanup</strong> file to change the last user2 part to the user you 
-will be communicating with. Then, run the <strong>setup.py</strong> file. <strong>python3 setup.py</strong>. 
-Once this is done, go back to your home directory. <strong>cd ~</strong> and edit the <strong>.alert</strong> 
-file so you can change the final <strong>user2</strong> part. Once these steps are done for both users, you're set! 
-Have both users exit and sign into their accounts and you can run mult.
-Type <strong>mult</strong> from the command line to access the chat.</p>
-    </div>
-  </body>
-  <footer>
-    <p class="footer">Mult developed by <a href="https://github.com/colevahey" class="colelink">Cole Vahey</a> and <a href="https://github.com/jajaio" class="jajalink">Jackson Martin</a>. Website by <a href="https://github.com/colevahey" class="colelink">Cole Vahey</a>.</p>
-  </footer>
+	<head>
+		<title>Mult.</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body class="left-sidebar">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper" class="wrapper">
+					<div id="header">
+
+						<!-- Logo -->
+							<div id="logo">
+								<h1><a href="index.html">Mult.</a></h1>
+								<p>An IM program for the UNIX system.</p>
+							</div>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li class="current"><a href="index.html">Home</a></li>
+									<li>
+										<a href="#">My Programs</a>
+										<ul>
+											<li><a href="../alphaquest">AlphaQuest</a></li>
+											<li><a href="../towerrace">Tower Race</a></li>
+											<li><a href="https://github.com/jajaio/clementine">Clementine</a></li>
+											<li><a href="#">Nisl tempus</a></li>
+										</ul>
+									</li>
+									<li><a href="https://www.linkedin.com/in/jackson-m-511239109?trk=hp-identity-name">LinkedIn</a></li>
+									<li><a href="https://github.com/jajaio">jajaio(GitHub)</a></li>
+								</ul>
+							</nav>
+
+					</div>
+				</div>
+
+			<!-- Main -->
+				<div class="wrapper style2">
+					<div class="title">The Details</div>
+					<div id="main" class="container">
+						<div class="row 150%">
+							<div class="4u 12u(mobile)">
+
+								<!-- Sidebar -->
+									<div id="sidebar">
+										<section class="box">
+											<header>
+												<h2>The Developers</h2>
+											</header>
+											<p>Mult was developed by Jackson Martin, and Cole Vahey 
+                        for a computer programming class at school. All of the code
+                      is uploaded to GitHub.</p>
+											<a href="https://github.com/jajaio/mult" class="button style1">Mult on GitHub</a>
+										</section>
+										<section class="box">
+											<header>
+												<h2>Techn</h2>
+											</header>
+											<ul class="style2">
+												<li>
+													<article class="box post-excerpt">
+														<a href="#" class="image left"><img src="images/pic08.jpg" alt="" /></a>
+														<h3><a href="#">Diam odio lorem</a></h3>
+														<p>Duis odio diam, luctus et vulputate vitae, vehicula ac dolor. Pellentesque at urna eget tellus sed etiam.</p>
+													</article>
+												</li>
+												<li>
+													<article class="box post-excerpt">
+														<a href="#" class="image left"><img src="images/pic09.jpg" alt="" /></a>
+														<h3><a href="#">Sed duis consequat</a></h3>
+														<p>Duis odio diam, luctus et vulputate vitae, vehicula ac dolor. Pellentesque at urna eget tellus sed etiam.</p>
+													</article>
+												</li>
+												<li>
+													<article class="box post-excerpt">
+														<a href="#" class="image left"><img src="images/pic10.jpg" alt="" /></a>
+														<h3><a href="#">Tellus nulla volutpat</a></h3>
+														<p>Duis odio diam, luctus et vulputate vitae, vehicula ac dolor. Pellentesque at urna eget tellus sed etiam.</p>
+													</article>
+												</li>
+											</ul>
+											<a href="#" class="button style1">Archives</a>
+										</section>
+										<section class="box">
+											<header>
+												<h2>Magna diam vehicula</h2>
+											</header>
+											<ul class="style3">
+												<li><a href="#">Nulla iaculis egestas varius</a></li>
+												<li><a href="#">Augue massa feugiat quam pretium</a></li>
+												<li><a href="#">Orci sem vel libero cras nisi odio</a></li>
+												<li><a href="#">Sed hendrerit massa nam mattis</a></li>
+												<li><a href="#">Turpis vel leo accumsan aliquet</a></li>
+												<li><a href="#">Dapibus mi fermentum fusce non</a></li>
+												<li><a href="#">Arcu laoreet sapien tempus</a></li>
+												<li><a href="#">Nulla iaculis egestas varius</a></li>
+												<li><a href="#">Augue massa feugiat quam pretium</a></li>
+												<li><a href="#">Orci sem vel libero cras nisi odio</a></li>
+												<li><a href="#">Sed hendrerit massa nam mattis</a></li>
+											</ul>
+										</section>
+									</div>
+
+							</div>
+							<div class="8u 12u(mobile) important(mobile)">
+
+								<!-- Content -->
+									<div id="content">
+										<article class="box post">
+											<header class="style1">
+												<h2>Mult takes a bit of setup, but it's worth it.</h2>
+												<p>Written in Python and Bash</p>
+											</header>
+											<a href="#" class="image featured">
+												<img src="images/pic01.jpg" alt="" />
+											</a>
+											<p>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
+											odio eleifend. Duis commodo fringilla commodo. Aliquam erat volutpat. Vestibulum
+											facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
+											tempus euismod. Vestibulum ante ipsum primis in faucibus.</p>
+											<p>Phasellus nisl nisl, varius id porttitor sed, pellentesque ac orci. Pellentesque
+											habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi
+											bibendum justo sed mauris vehicula malesuada aliquam elit imperdiet. Aliquam eu nibh
+											lorem, eget gravida mi. Duis odio diam, luctus et vulputate vitae, vehicula ac dolor.
+											Pellentesque at urna eget tellus lobortis ultrices sed non erat. Donec eget erat non
+											magna volutpat malesuada quis eget eros. Nullam sodales cursus sapien, id consequat
+											leo suscipit ut. Praesent id turpis vitae turpis pretium ultricies. Vestibulum sit
+											amet risus elit.</p>
+											<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
+											ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
+											eget quam rutrum bibendum. Proin pellentesque diam non ligula commodo tempor. Vivamus
+											eget urna nibh. Curabitur non fringilla nisl. Donec accumsan interdum nisi, quis
+											tincidunt felis sagittis eget. Donec elementum ligula dignissim sem pulvinar non semper
+											odio eleifend. Duis commodo fringilla commodo. Aliquam erat volutpat. Vestibulum
+											facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
+											tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+											posuere cubilia.</p>
+											<p>Phasellus nisl nisl, varius id porttitor sed, pellentesque ac orci. Pellentesque
+											habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi
+											bibendum justo sed mauris vehicula malesuada aliquam elit imperdiet. Aliquam eu nibh
+											lorem, eget gravida mi. Duis odio diam, luctus et vulputate vitae, vehicula ac dolor.
+											Pellentesque at urna eget tellus lobortis ultrices sed non erat. Donec eget erat non
+											magna volutpat malesuada quis eget eros. Nullam sodales cursus sapien, id consequat
+											leo suscipit ut. Praesent id turpis vitae turpis pretium ultricies. Vestibulum sit
+											amet risus elit.</p>
+										</article>
+										<div class="row 150%">
+											<div class="6u 12u(mobile)">
+												<section class="box">
+													<header>
+														<h2>Magna pulvinar tempus</h2>
+													</header>
+													<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+													<p>Rutrum bibendum. Proin pellentesque diam non ligula commodo tempor. Vivamus
+													eget urna nibh. Curabitur non fringilla nisl. Donec accumsan interdum nisi, quis
+													tempus.</p>
+													<a href="#" class="button style1">More</a>
+												</section>
+											</div>
+											<div class="6u 12u(mobile)">
+												<section class="box">
+													<header>
+														<h2>Magna pulvinar tempus</h2>
+													</header>
+													<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+													<p>Rutrum bibendum. Proin pellentesque diam non ligula commodo tempor. Vivamus
+													eget urna nibh. Curabitur non fringilla nisl. Donec accumsan interdum nisi, quis
+													tempus.</p>
+													<a href="#" class="button style1">More</a>
+												</section>
+											</div>
+										</div>
+									</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+		<!-- Scripts -->
+
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.dropotron.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/skel-viewport.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="../assets/js/main.js"></script>
+
+	</body>
 </html>
